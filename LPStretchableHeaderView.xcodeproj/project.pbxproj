@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454847351F4E76E8009B8BFF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454847341F4E76E8009B8BFF /* Extension.swift */; };
+		456EFC001F4D11B800AF6D5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456EFBFF1F4D11B800AF6D5D /* AppDelegate.swift */; };
+		456EFC021F4D11B800AF6D5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456EFC011F4D11B800AF6D5D /* ViewController.swift */; };
+		456EFC051F4D11B800AF6D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456EFC031F4D11B800AF6D5D /* Main.storyboard */; };
+		456EFC071F4D11B800AF6D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456EFC061F4D11B800AF6D5D /* Assets.xcassets */; };
+		456EFC0A1F4D11B800AF6D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456EFC081F4D11B800AF6D5D /* LaunchScreen.storyboard */; };
+		456EFC151F4D11B800AF6D5D /* LPStretchableHeaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456EFC141F4D11B800AF6D5D /* LPStretchableHeaderViewTests.swift */; };
+		456EFC201F4D11B800AF6D5D /* LPStretchableHeaderViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456EFC1F1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests.swift */; };
+		456EFC2E1F4D2A5400AF6D5D /* LPStretchableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456EFC2D1F4D2A5400AF6D5D /* LPStretchableHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		456EFC111F4D11B800AF6D5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456EFBF41F4D11B800AF6D5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456EFBFB1F4D11B800AF6D5D;
+			remoteInfo = LPStretchableHeaderView;
+		};
+		456EFC1C1F4D11B800AF6D5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456EFBF41F4D11B800AF6D5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456EFBFB1F4D11B800AF6D5D;
+			remoteInfo = LPStretchableHeaderView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		454847341F4E76E8009B8BFF /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		456EFBFC1F4D11B800AF6D5D /* LPStretchableHeaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPStretchableHeaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456EFBFF1F4D11B800AF6D5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		456EFC011F4D11B800AF6D5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		456EFC041F4D11B800AF6D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		456EFC061F4D11B800AF6D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456EFC091F4D11B800AF6D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		456EFC0B1F4D11B800AF6D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456EFC101F4D11B800AF6D5D /* LPStretchableHeaderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPStretchableHeaderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456EFC141F4D11B800AF6D5D /* LPStretchableHeaderViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPStretchableHeaderViewTests.swift; sourceTree = "<group>"; };
+		456EFC161F4D11B800AF6D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456EFC1B1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPStretchableHeaderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456EFC1F1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPStretchableHeaderViewUITests.swift; sourceTree = "<group>"; };
+		456EFC211F4D11B800AF6D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456EFC2D1F4D2A5400AF6D5D /* LPStretchableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPStretchableHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456EFBF91F4D11B800AF6D5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456EFC0D1F4D11B800AF6D5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456EFC181F4D11B800AF6D5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456EFBF31F4D11B800AF6D5D = {
+			isa = PBXGroup;
+			children = (
+				456EFBFE1F4D11B800AF6D5D /* LPStretchableHeaderView */,
+				456EFC131F4D11B800AF6D5D /* LPStretchableHeaderViewTests */,
+				456EFC1E1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests */,
+				456EFBFD1F4D11B800AF6D5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		456EFBFD1F4D11B800AF6D5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456EFBFC1F4D11B800AF6D5D /* LPStretchableHeaderView.app */,
+				456EFC101F4D11B800AF6D5D /* LPStretchableHeaderViewTests.xctest */,
+				456EFC1B1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456EFBFE1F4D11B800AF6D5D /* LPStretchableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				456EFBFF1F4D11B800AF6D5D /* AppDelegate.swift */,
+				456EFC2D1F4D2A5400AF6D5D /* LPStretchableHeaderView.swift */,
+				456EFC011F4D11B800AF6D5D /* ViewController.swift */,
+				454847341F4E76E8009B8BFF /* Extension.swift */,
+				456EFC031F4D11B800AF6D5D /* Main.storyboard */,
+				456EFC061F4D11B800AF6D5D /* Assets.xcassets */,
+				456EFC081F4D11B800AF6D5D /* LaunchScreen.storyboard */,
+				456EFC0B1F4D11B800AF6D5D /* Info.plist */,
+			);
+			path = LPStretchableHeaderView;
+			sourceTree = "<group>";
+		};
+		456EFC131F4D11B800AF6D5D /* LPStretchableHeaderViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				456EFC141F4D11B800AF6D5D /* LPStretchableHeaderViewTests.swift */,
+				456EFC161F4D11B800AF6D5D /* Info.plist */,
+			);
+			path = LPStretchableHeaderViewTests;
+			sourceTree = "<group>";
+		};
+		456EFC1E1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				456EFC1F1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests.swift */,
+				456EFC211F4D11B800AF6D5D /* Info.plist */,
+			);
+			path = LPStretchableHeaderViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456EFBFB1F4D11B800AF6D5D /* LPStretchableHeaderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456EFC241F4D11B800AF6D5D /* Build configuration list for PBXNativeTarget "LPStretchableHeaderView" */;
+			buildPhases = (
+				456EFBF81F4D11B800AF6D5D /* Sources */,
+				456EFBF91F4D11B800AF6D5D /* Frameworks */,
+				456EFBFA1F4D11B800AF6D5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPStretchableHeaderView;
+			productName = LPStretchableHeaderView;
+			productReference = 456EFBFC1F4D11B800AF6D5D /* LPStretchableHeaderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		456EFC0F1F4D11B800AF6D5D /* LPStretchableHeaderViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456EFC271F4D11B800AF6D5D /* Build configuration list for PBXNativeTarget "LPStretchableHeaderViewTests" */;
+			buildPhases = (
+				456EFC0C1F4D11B800AF6D5D /* Sources */,
+				456EFC0D1F4D11B800AF6D5D /* Frameworks */,
+				456EFC0E1F4D11B800AF6D5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456EFC121F4D11B800AF6D5D /* PBXTargetDependency */,
+			);
+			name = LPStretchableHeaderViewTests;
+			productName = LPStretchableHeaderViewTests;
+			productReference = 456EFC101F4D11B800AF6D5D /* LPStretchableHeaderViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		456EFC1A1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456EFC2A1F4D11B800AF6D5D /* Build configuration list for PBXNativeTarget "LPStretchableHeaderViewUITests" */;
+			buildPhases = (
+				456EFC171F4D11B800AF6D5D /* Sources */,
+				456EFC181F4D11B800AF6D5D /* Frameworks */,
+				456EFC191F4D11B800AF6D5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456EFC1D1F4D11B800AF6D5D /* PBXTargetDependency */,
+			);
+			name = LPStretchableHeaderViewUITests;
+			productName = LPStretchableHeaderViewUITests;
+			productReference = 456EFC1B1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456EFBF41F4D11B800AF6D5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					456EFBFB1F4D11B800AF6D5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RWKH7R4DZR;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					456EFC0F1F4D11B800AF6D5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RWKH7R4DZR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 456EFBFB1F4D11B800AF6D5D;
+					};
+					456EFC1A1F4D11B800AF6D5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RWKH7R4DZR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 456EFBFB1F4D11B800AF6D5D;
+					};
+				};
+			};
+			buildConfigurationList = 456EFBF71F4D11B800AF6D5D /* Build configuration list for PBXProject "LPStretchableHeaderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 456EFBF31F4D11B800AF6D5D;
+			productRefGroup = 456EFBFD1F4D11B800AF6D5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456EFBFB1F4D11B800AF6D5D /* LPStretchableHeaderView */,
+				456EFC0F1F4D11B800AF6D5D /* LPStretchableHeaderViewTests */,
+				456EFC1A1F4D11B800AF6D5D /* LPStretchableHeaderViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456EFBFA1F4D11B800AF6D5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456EFC0A1F4D11B800AF6D5D /* LaunchScreen.storyboard in Resources */,
+				456EFC071F4D11B800AF6D5D /* Assets.xcassets in Resources */,
+				456EFC051F4D11B800AF6D5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456EFC0E1F4D11B800AF6D5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456EFC191F4D11B800AF6D5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456EFBF81F4D11B800AF6D5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456EFC021F4D11B800AF6D5D /* ViewController.swift in Sources */,
+				456EFC001F4D11B800AF6D5D /* AppDelegate.swift in Sources */,
+				456EFC2E1F4D2A5400AF6D5D /* LPStretchableHeaderView.swift in Sources */,
+				454847351F4E76E8009B8BFF /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456EFC0C1F4D11B800AF6D5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456EFC151F4D11B800AF6D5D /* LPStretchableHeaderViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456EFC171F4D11B800AF6D5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456EFC201F4D11B800AF6D5D /* LPStretchableHeaderViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		456EFC121F4D11B800AF6D5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456EFBFB1F4D11B800AF6D5D /* LPStretchableHeaderView */;
+			targetProxy = 456EFC111F4D11B800AF6D5D /* PBXContainerItemProxy */;
+		};
+		456EFC1D1F4D11B800AF6D5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456EFBFB1F4D11B800AF6D5D /* LPStretchableHeaderView */;
+			targetProxy = 456EFC1C1F4D11B800AF6D5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		456EFC031F4D11B800AF6D5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456EFC041F4D11B800AF6D5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		456EFC081F4D11B800AF6D5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456EFC091F4D11B800AF6D5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		456EFC221F4D11B800AF6D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		456EFC231F4D11B800AF6D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		456EFC251F4D11B800AF6D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RWKH7R4DZR;
+				INFOPLIST_FILE = LPStretchableHeaderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.ylp.LPStretchableHeaderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		456EFC261F4D11B800AF6D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RWKH7R4DZR;
+				INFOPLIST_FILE = LPStretchableHeaderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.ylp.LPStretchableHeaderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		456EFC281F4D11B800AF6D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RWKH7R4DZR;
+				INFOPLIST_FILE = LPStretchableHeaderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.ylp.LPStretchableHeaderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPStretchableHeaderView.app/LPStretchableHeaderView";
+			};
+			name = Debug;
+		};
+		456EFC291F4D11B800AF6D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RWKH7R4DZR;
+				INFOPLIST_FILE = LPStretchableHeaderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.ylp.LPStretchableHeaderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPStretchableHeaderView.app/LPStretchableHeaderView";
+			};
+			name = Release;
+		};
+		456EFC2B1F4D11B800AF6D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RWKH7R4DZR;
+				INFOPLIST_FILE = LPStretchableHeaderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.ylp.LPStretchableHeaderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LPStretchableHeaderView;
+			};
+			name = Debug;
+		};
+		456EFC2C1F4D11B800AF6D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RWKH7R4DZR;
+				INFOPLIST_FILE = LPStretchableHeaderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.ylp.LPStretchableHeaderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LPStretchableHeaderView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456EFBF71F4D11B800AF6D5D /* Build configuration list for PBXProject "LPStretchableHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456EFC221F4D11B800AF6D5D /* Debug */,
+				456EFC231F4D11B800AF6D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456EFC241F4D11B800AF6D5D /* Build configuration list for PBXNativeTarget "LPStretchableHeaderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456EFC251F4D11B800AF6D5D /* Debug */,
+				456EFC261F4D11B800AF6D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456EFC271F4D11B800AF6D5D /* Build configuration list for PBXNativeTarget "LPStretchableHeaderViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456EFC281F4D11B800AF6D5D /* Debug */,
+				456EFC291F4D11B800AF6D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456EFC2A1F4D11B800AF6D5D /* Build configuration list for PBXNativeTarget "LPStretchableHeaderViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456EFC2B1F4D11B800AF6D5D /* Debug */,
+				456EFC2C1F4D11B800AF6D5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 456EFBF41F4D11B800AF6D5D /* Project object */;
+}
