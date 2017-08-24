@@ -3,7 +3,7 @@
 
 ![image](https://github.com/splsylp/LPStretchableHeaderView/blob/master/stretchableView.gif )
 
-####[实现原理解析](http://www.jianshu.com/p/1b3788dfa4ea)
+#### [实现原理解析](http://www.jianshu.com/p/1b3788dfa4ea)
 
 
 ##### 使用
